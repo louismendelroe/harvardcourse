@@ -1,11 +1,12 @@
-.container1 {
-  display: flex;
-  flex-wrap: wrap;
+@media (min-width: 600px) {
+  h1::before{
+    content: "Popular Household Pets";
+  }
 }
 
-.container1 > div {
-  background-color: springgreen;
-  margin: 20px;
-  padding: 20px;
-  width: auto;
+
+@media (max-width: 599px) {
+  h1::before{
+    content: "Household Pets";
+  }
 }
