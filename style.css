@@ -1,0 +1,11 @@
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container1 > div {
+  background-color: springgreen;
+  margin: 20px;
+  padding: 20px;
+  width: auto;
+}
